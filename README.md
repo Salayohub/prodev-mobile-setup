@@ -1,6 +1,3 @@
-# prodev-mobile-setup
-## To setup the expo app
-
 Steps to Install Expo Go
 Visit the official Expo Go homepage: https://expo.dev/go.
 Select the latest SDK version.
