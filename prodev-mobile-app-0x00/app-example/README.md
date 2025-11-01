@@ -95,32 +95,6 @@ First App Created
 
 🎉 Congratulations! You’ve successfully built and modified your first Expo Router app.
 
-🔁 Step 6: Reset the Application
-
-Run the reset command to clear the cache and restart the bundler:
-
-npm run reset-project
-
-
-This command is usually defined in your package.json as:
-
-"reset-project": "expo start --clear"
-
-🧠 Observations
-
-Clears the Metro bundler cache.
-
-Rebuilds project assets.
-
-Helps fix common issues caused by stale caches.
-
-Terminal output shows:
-
-Starting Metro Bundler...
-Clearing cache...
-
-
-Your project source files remain intact.
 
 🧩 Step 7: Verify Project Files
 
