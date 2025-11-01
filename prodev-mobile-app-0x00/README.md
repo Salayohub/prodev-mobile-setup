@@ -172,6 +172,12 @@ The npm run reset-project command clears caches and reloads the app.
 
 Folder structure matches the expected Expo Router layout.
 
+
+
+## Observations from thereset-project command.
+
+when the app was reset it prompt me to confirm either to save or delete the reset cach files ,which i choosed no , and all files was deleted and new app/index, app/layout was creted and the old files was purged.
+
 Author: [Your Name]
 Date: [Submission Date]
 Project: ProDev Mobile App 0x00
