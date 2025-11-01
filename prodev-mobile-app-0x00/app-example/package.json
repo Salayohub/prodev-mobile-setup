@@ -1,5 +1,5 @@
 {
-  "name": "prodev-mobile-app-0x00",
+  "name": "app-example",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
