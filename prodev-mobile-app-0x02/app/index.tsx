@@ -1,3 +1,8 @@
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+import { ImageBackground, Dimensions, View, Text, TouchableOpacity,Image } from "react-native";
+import { StyleSheet } from "react-native";
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -57,3 +62,37 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
 });
+
+
+<SafeAreaProvider>
+  <SafeAreaView style={{ flex: 1 }}>
+    {/* Other components go here */}
+    <ImageBackground
+  source={require("@/assets/images/background-image.png")}
+  style={styles.background}
+  resizeMode="cover"
+>
+  <View style={styles.companyLogo}>
+  <Image source={require("@/assets/images/Logo.png")} />
+  <View style={styles.textGroup}>
+  <Text style={styles.textLarge}>Find your favorite place here</Text>
+  <Text style={styles.textSmall}>The best prices for over 2 </Text>
+  <Text style={styles.textSmall}>million properties worldwide</Text>
+</View>
+</View>
+<View style={styles.buttonGroup}>
+  <TouchableOpacity style={styles.button}>
+    <Text style={{ ...styles.textSmall, color: "black" }}>Join here</Text>
+  </TouchableOpacity>
+
+  <TouchableOpacity style={styles.transparentButton}>
+    <Text style={styles.textSmall}>Sign In</Text>
+  </TouchableOpacity>
+</View>
+<View style={{ alignItems: "center", paddingVertical: 20 }}>
+  <Text style={{ color: "white" }}>Continue to home</Text>
+</View>
+
+</ImageBackground>
+  </SafeAreaView>
+</SafeAreaProvider>
